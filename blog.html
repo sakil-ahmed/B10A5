@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Donate Bangladesh FAQ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/ed97962f8d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./index.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body>
+    <nav class="bg-[#F9F7F3] w-full shadow-md p-4">
+      <div
+        class="max-w-[1180px] w-full px-5 mx-auto flex justify-between items-center"
+      >
+        <a href="/index.html" class="btn text-white">Donate</a>
+        <div class="text-xl font-bold flex items-center gap-4">
+          <img src="./assets/logo.png" alt="Logo" /><span
+            class="font-medium text-[28px]"
+            >Donate Bangladesh</span
+          >
+        </div>
+        <div class="flex space-x-4">
+          <span class="flex items-center space-x-1">
+            <img src="./assets/coin.png" alt="" />
+            <span id="account-balance">5000</span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <h1 class="text-3xl font-bold my-10 text-center">FAQ</h1>
+
+    <div class="w-full max-w-2xl mx-auto mt-10">
+      <div class="w-full max-w-2xl mx-auto mt-10">
+        <div class="faq-item border-b border-gray-200 pb-4 mb-4">
+          <button
+            class="faq-question flex justify-between items-center w-full text-left text-xl font-semibold focus:outline-none"
+          >
+            What is the Document Object Model (DOM)?
+            <svg
+              class="w-5 h-5 transform transition-transform duration-300 ease-in-out"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              ></path>
+            </svg>
+          </button>
+          <div
+            class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0"
+          >
+            <p class="mt-2">
+              The DOM is a programming interface for HTML and XML documents. It
+              represents the page so that programs can change the document
+              structure, style, and content. The DOM represents the document as
+              nodes and objects, which are accessible via programming languages
+              like JavaScript.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item border-b border-gray-200 pb-4 mb-4">
+          <button
+            class="faq-question flex justify-between items-center w-full text-left text-xl font-semibold focus:outline-none"
+          >
+            What is event delegation in the context of the DOM, and why is it
+            useful?
+            <svg
+              class="w-5 h-5 transform transition-transform duration-300 ease-in-out"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              ></path>
+            </svg>
+          </button>
+          <div
+            class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0"
+          >
+            <p class="mt-2">
+              Event delegation allows you to handle events more efficiently by
+              attaching them to a parent element rather than individual child
+              elements. It reduces memory usage and improves performance,
+              especially for dynamic content.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item border-b border-gray-200 pb-4 mb-4">
+          <button
+            class="faq-question flex justify-between items-center w-full text-left text-xl font-semibold focus:outline-none"
+          >
+            How do you select an element from the DOM?
+            <svg
+              class="w-5 h-5 transform transition-transform duration-300 ease-in-out"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              ></path>
+            </svg>
+          </button>
+          <div
+            class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0"
+          >
+            <p class="mt-2">
+              To select an element from the DOM, use methods like
+              document.querySelector(), document.getElementById(), or
+              document.getElementsByClassName().
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item border-b border-gray-200 pb-4 mb-4">
+          <button
+            class="faq-question flex justify-between items-center w-full text-left text-xl font-semibold focus:outline-none"
+          >
+            How do you manipulate an element's attributes and styles using the
+            DOM?
+            <svg
+              class="w-5 h-5 transform transition-transform duration-300 ease-in-out"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              ></path>
+            </svg>
+          </button>
+          <div
+            class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0"
+          >
+            <p class="mt-2">
+              You can manipulate an element's attributes using methods like
+              <code>setAttribute</code> to set attributes and
+              <code>getAttribute</code> to retrieve them. To change styles, use
+              the <code>style</code> property directly (e.g.,
+              <code>element.style.color = 'red';</code>).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.querySelectorAll(".faq-question").forEach((question) => {
+        question.addEventListener("click", () => {
+          const answer = question.nextElementSibling;
+          const icon = question.querySelector("svg");
+
+          if (answer.style.maxHeight) {
+            answer.style.maxHeight = null;
+            answer.classList.add("opacity-0");
+            setTimeout(() => answer.classList.add("hidden"), 300);
+          } else {
+            answer.classList.remove("hidden");
+            answer.style.maxHeight = answer.scrollHeight + "px";
+            answer.classList.remove("opacity-0");
+          }
+
+          icon.classList.toggle("rotate-180");
+        });
+      });
+    </script>
+  </body>
+</html>

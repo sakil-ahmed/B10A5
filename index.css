@@ -1,0 +1,15 @@
+:root {
+  background-color: white !important;
+  color: black !important;
+}
+body {
+  font-family: Lexend;
+}
+
+.tab-content {
+  display: none;
+}
+
+.active-tab {
+  display: block !important;
+}
