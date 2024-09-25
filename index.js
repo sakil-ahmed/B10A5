@@ -86,19 +86,11 @@ function openTab(event, tabId) {
     event.currentTarget.classList.add("bg-base-100","text-white");
 }
 
-
-
-
-
-
-
  
      const modal = document.getElementById("modal");
      const closeModalFooterButton = document.getElementById(
        "closeModalFooterButton"
      );
-
-  
 
    
      const closeModal = () => {
